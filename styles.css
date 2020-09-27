@@ -83,3 +83,26 @@ main {
   max-width: 520px;
   height: auto;
 }
+
+@media only screen and (max-width: 420px) {
+  button {
+    padding: 18px;
+  }
+
+  .row.content {
+    flex-direction: column;
+  }
+
+  .responsive-image {
+    padding-top: 24px;
+  }
+
+  .title {
+    font-size: 36px;
+  }
+
+  .descriptions {
+    margin-top: 18px;
+    font-size: 16px;
+  }
+}
