@@ -18,6 +18,20 @@ button {
   font-family: 'Space Mono', monospace;
 }
 
+main {
+  flex: 1;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  min-height: 24em;
+  height: 100vh;
+  flex-direction: column;
+}
+
 .title {
   font-weight: 700;
   font-size: 64px;
@@ -27,14 +41,21 @@ button {
 
 .row {
   display: flex;
+  flex: 1;
   flex-direction: row;
+  align-items: center;
 }
 
 .column {
   display: flex;
+  flex: 1;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+}
+
+.column.ilustrations img {
+  align-self: center;
 }
 
 .descriptions {
@@ -47,5 +68,6 @@ button {
 
 .responsive-image {
   width: 100%;
+  max-width: 520px;
   height: auto;
 }
