@@ -25,6 +25,18 @@ button {
   color: #333333;
 }
 
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
 .descriptions {
   margin-top: 36px;
   font-weight: 400;
