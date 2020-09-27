@@ -20,6 +20,7 @@ footer {
 }
 
 button {
+  cursor: pointer;
   padding: 24px;
   background-color: #333333;
   border: none;
@@ -39,8 +40,14 @@ main {
 }
 
 a {
+  cursor: pointer;
   text-decoration: none;
   color: #333333;
+}
+
+.copyright {
+  font-size: 1rem;
+  font-weight: 700;
 }
 
 .container {
