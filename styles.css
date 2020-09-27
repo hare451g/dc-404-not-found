@@ -17,3 +17,18 @@ button {
   text-transform: uppercase;
   font-family: 'Space Mono', monospace;
 }
+
+.title {
+  font-weight: 700;
+  font-size: 64px;
+  font-family: 'Space Mono', monospace;
+  color: #333333;
+}
+
+.descriptions {
+  margin-top: 36px;
+  font-weight: 400;
+  font-size: 24px;
+  font-family: 'Space Mono', monospace;
+  color: #333333;
+}
